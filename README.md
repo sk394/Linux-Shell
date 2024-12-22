@@ -1,11 +1,5 @@
 ## A Simple Linux Shell
 
-Suman Khadka
-
-O.S. Lab 1
-
-Operating Systems
-
 *This is a simple command-line shell that is implemented in C as part of a lab 1 project for an Operating Systems class. This can be run in linux computers. The implemented shell allows the user to start programs and perform several simple file manipulation tasks. Using the shell, we can execute internal commands like creating and writing into a file, deleting file, copying between files, clearing the window and exit from the shell.*
 
 #### <ins>Compilation and Execution</ins>
@@ -58,10 +52,3 @@ void make_file(char* file);
 void clear_screen();
 void execute_program(char* program, char** args);
 ```
-
-#### <ins>Citations</ins>
-1. *GeeksforGeeks. (2024, March 13). _How to Create a Shell Script in linux_. GeeksforGeeks. https://www.geeksforgeeks.org/how-to-create-a-shell-script-in-linux/#*
-2. *_system(3) - Linux manual page_. (n.d.). https://www.man7.org/linux/man-pages/man3/system.3.html*
-3. *Marijan, B. (2023, September 25). _How to Use the ulimit Linux Command_. Knowledge Base by phoenixNAP. https://phoenixnap.com/kb/ulimit-linux-command*
-4. *Writing a simple shell in C using fork/execvp_. (n.d.). Stack Overflow. https://stackoverflow.com/questions/28502305/writing-a-simple-shell-in-c-using-fork-execvp*
-5. *_Execute a Program: the execvp() System Call_. (n.d.). https://www.csl.mtu.edu/cs4411.ck/www/NOTES/process/fork/exec.html*
